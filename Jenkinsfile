@@ -5,7 +5,6 @@ pipeline {
         TF_VAR_tenancy_ocid  = credentials('oci-tenancy-ocid')
         TF_VAR_user_ocid     = credentials('oci-user-ocid')
         TF_VAR_fingerprint   = credentials('oci-fingerprint')  
-        TF_VAR_fingerprint   = credentials('oci-fingerprint')
         TF_VAR_region        = credentials('oci-region')
     }
 
