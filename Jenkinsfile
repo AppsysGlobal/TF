@@ -4,7 +4,7 @@ pipeline {
     environment {
         TF_VAR_tenancy_ocid = credentials('oci-tenancy-ocid')
         TF_VAR_user_ocid    = credentials('oci-user-ocid')
-        TF_VAR_fingerprint  = credentials('oci-fingerprint')
+        TF_VAR_fingerprint  = credentials('OCI_Fingerprint')
         TF_VAR_region       = 'us-ashburn-1'
         TF_VAR_private_key_path = '/var/lib/jenkins/.oci/oci_api_key.pem'
     }
