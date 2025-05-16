@@ -16,7 +16,7 @@ variable "fingerprint" {
 variable "private_key_path" {
   description = "Path to the private key file"
   type        = string
-  default     = "/home/ubuntu/.oci/oci_api_key_pkcs8.pem"
+  default     = "/home/ubuntu/.oci/Optimuskey_pkcs1.pem"
 }
 
 variable "region" {
