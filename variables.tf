@@ -16,7 +16,7 @@ variable "fingerprint" {
 variable "private_key_path" {
   description = "Path to the private key file"
   type        = string
-  default     = "/home/ubuntu/.oci/Optimuskey_pkcs1.pem"
+  default     = "/var/lib/jenkins/.oci/Optimuskey_pkcs1.pem"
 }
 
 variable "region" {
