@@ -2,7 +2,7 @@ provider "oci" {
   tenancy_ocid     = var.tenancy_ocid
   user_ocid        = var.user_ocid
   fingerprint      = var.fingerprint
-  private_key_path = "/home/ubuntu/.oci/Optimuskey_pkcs1.pem"
+  private_key_path = "/var/lib/jenkins/.oci/Optimuskey_pkcs1.pem"
   region           = var.region
 }
 
