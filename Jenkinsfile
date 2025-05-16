@@ -6,7 +6,7 @@ pipeline {
         TF_VAR_user_ocid           = credentials('oci-user-ocid')
         TF_VAR_fingerprint         = credentials('oci-fingerprint')
         TF_VAR_region              = credentials('oci-region')
-        TF_VAR_private_key_path    = '/home/ubuntu/.oci/Optimuskey_pkcs1.pem'
+        TF_VAR_private_key_path    = '/var/lib/jenkins/.oci/Optimuskey_pkcs1.pem'
     }
 
     stages {
